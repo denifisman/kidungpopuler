@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #87ceeb;
+    padding: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-top: 60px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+}
+
+.song-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.song-list li {
+    margin: 10px 0;
+}
+
+.song-list a {
+    text-decoration: none;
+}
+
+.song-button {
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.song-button:hover {
+    background-color: #e0e0e0;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f8ff;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.song-content {
+    padding: 70px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+    nav a {
+        margin: 0 10px;
+        font-size: 14px;
+    }
+    .song-list a {
+        font-size: 16px;
+    }
+}
